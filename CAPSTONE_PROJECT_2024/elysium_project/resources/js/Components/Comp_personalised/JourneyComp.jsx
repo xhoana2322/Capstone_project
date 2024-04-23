@@ -7,7 +7,7 @@ import photo20 from '../../../assets/images/img-20.jpg'
 import photo21 from '../../../assets/images/img-21.jpg'
 import photo22 from '../../../assets/images/img-22.jpg'
 import photo23 from '../../../assets/images/img-23.jpg'
-import photo26 from '../../../assets/images/img-26.jpg'
+import photo41 from '../../../assets/images/img-41.jpg'
 import photo30 from '../../../assets/images/img-30.jpg'
 
 export default function JourneyComp() {
@@ -58,10 +58,10 @@ export default function JourneyComp() {
                     <div className="hover-text">2024</div>
                 </div>
             </div>
-            <div className="col-6 p-0">
+            <div className="col-6 p-0" style={{ height: '100%' }}>
                 <div className="space-journey">
                     <div className="image-container" style={{ height: '40%' }}>
-                        <img src={photo26} alt="" className="image" />
+                        <img src={photo41} alt="" className="image" />
                         <div className="hover-text">2018</div>
                     </div>
                 </div>
